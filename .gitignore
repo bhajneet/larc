@@ -1,0 +1,54 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# Claude Code (machine-specific paths, personal overrides)
+.claude/settings.local.json
+.claude/.cc-writes/
+
+# The real git dir. `.git` is a one-line pointer file (gitdir: .gitdir)
+# because the Claude sandbox hard-denies all writes to a path named `.git`
+# but allows `.gitdir`. Git only auto-excludes `.git`, so this needs an
+# explicit rule. See CLAUDE.md "Git setup".
+.gitdir/
+
+# larc
+tools/discovery-probe
+tools/palette-probe
+discovery-dump.json
+
+# mitmproxy capture files (may contain device tokens)
+*.mitm
+eqv2.txt
+
+# The drop-off copy; the tracked one lives in larc/Resources.
+/larc-logo.png
+
+# Research tooling and captures. These carry the maintainer's LAN addresses and
+# raw device dumps; they stay local for reference and are never published.
+tools/
+*.json
+!larc.xcodeproj/**/*.json
+
+# Local notes: device addresses and anything else host-specific.
+PRIVATE.md

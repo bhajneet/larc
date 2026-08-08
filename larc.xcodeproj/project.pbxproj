@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA00000000000000000000B1 /* LarcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A1 /* LarcApp.swift */; };
+		AA00000000000000000000B2 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A2 /* Models.swift */; };
+		AA00000000000000000000B3 /* LinkplayPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A3 /* LinkplayPlugin.swift */; };
+		AA00000000000000000000B4 /* LinkplayDiscoverer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A4 /* LinkplayDiscoverer.swift */; };
+		AA00000000000000000000B5 /* DeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A5 /* DeviceController.swift */; };
+		AA00000000000000000000B6 /* MediaKeyTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A6 /* MediaKeyTap.swift */; };
+		AA00000000000000000000B7 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A7 /* PopoverView.swift */; };
+		AA00000000000000000000B9 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000AA /* OnboardingView.swift */; };
+		AA00000000000000000000B8 /* NetworkFingerprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000A8 /* NetworkFingerprint.swift */; };
+		AA00000000000000000000D1 /* GlobalHotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000C1 /* GlobalHotKey.swift */; };
+		AA00000000000000000000D2 /* MediaKeyMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000C2 /* MediaKeyMapping.swift */; };
+		AA00000000000000000000D4 /* PopoverHotkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000C4 /* PopoverHotkeys.swift */; };
+		AA00000000000000000000D5 /* ArtworkPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000000C5 /* ArtworkPalette.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA0000000000000000000091 /* larc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = larc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA00000000000000000000A1 /* LarcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LarcApp.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A2 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A3 /* LinkplayPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkplayPlugin.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A4 /* LinkplayDiscoverer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkplayDiscoverer.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A5 /* DeviceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceController.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A6 /* MediaKeyTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaKeyTap.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A7 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA00000000000000000000AA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		AA00000000000000000000A8 /* NetworkFingerprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFingerprint.swift; sourceTree = "<group>"; };
+		AA00000000000000000000C1 /* GlobalHotKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHotKey.swift; sourceTree = "<group>"; };
+		AA00000000000000000000C2 /* MediaKeyMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaKeyMapping.swift; sourceTree = "<group>"; };
+		AA00000000000000000000C4 /* PopoverHotkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverHotkeys.swift; sourceTree = "<group>"; };
+		AA00000000000000000000C5 /* ArtworkPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkPalette.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0000000000000000000021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000002 /* larc */,
+				AA0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000002 /* larc */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000000A1 /* LarcApp.swift */,
+				AA00000000000000000000A2 /* Models.swift */,
+				AA00000000000000000000A3 /* LinkplayPlugin.swift */,
+				AA00000000000000000000A4 /* LinkplayDiscoverer.swift */,
+				AA00000000000000000000A5 /* DeviceController.swift */,
+				AA00000000000000000000A6 /* MediaKeyTap.swift */,
+				AA00000000000000000000A7 /* PopoverView.swift */,
+				AA00000000000000000000AA /* OnboardingView.swift */,
+				AA00000000000000000000A8 /* NetworkFingerprint.swift */,
+				AA00000000000000000000C1 /* GlobalHotKey.swift */,
+				AA00000000000000000000C2 /* MediaKeyMapping.swift */,
+				AA00000000000000000000C4 /* PopoverHotkeys.swift */,
+				AA00000000000000000000C5 /* ArtworkPalette.swift */,
+				AA00000000000000000000A9 /* Info.plist */,
+			);
+			path = larc;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000091 /* larc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0000000000000000000011 /* larc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000031 /* Build configuration list for PBXNativeTarget "larc" */;
+			buildPhases = (
+				AA0000000000000000000020 /* Sources */,
+				AA0000000000000000000021 /* Frameworks */,
+				AA0000000000000000000022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = larc;
+			productName = larc;
+			productReference = AA0000000000000000000091 /* larc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA0000000000000000000011 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA0000000000000000000030 /* Build configuration list for PBXProject "larc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0000000000000000000001;
+			productRefGroup = AA0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0000000000000000000011 /* larc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000000000000000000022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0000000000000000000020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA00000000000000000000B1 /* LarcApp.swift in Sources */,
+				AA00000000000000000000B2 /* Models.swift in Sources */,
+				AA00000000000000000000B3 /* LinkplayPlugin.swift in Sources */,
+				AA00000000000000000000B4 /* LinkplayDiscoverer.swift in Sources */,
+				AA00000000000000000000B5 /* DeviceController.swift in Sources */,
+				AA00000000000000000000B6 /* MediaKeyTap.swift in Sources */,
+				AA00000000000000000000B7 /* PopoverView.swift in Sources */,
+				AA00000000000000000000B9 /* OnboardingView.swift in Sources */,
+				AA00000000000000000000B8 /* NetworkFingerprint.swift in Sources */,
+				AA00000000000000000000D1 /* GlobalHotKey.swift in Sources */,
+				AA00000000000000000000D2 /* MediaKeyMapping.swift in Sources */,
+				AA00000000000000000000D4 /* PopoverHotkeys.swift in Sources */,
+				AA00000000000000000000D5 /* ArtworkPalette.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA0000000000000000000043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = larc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studioaiyo.larc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = larc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studioaiyo.larc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0000000000000000000030 /* Build configuration list for PBXProject "larc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000041 /* Debug */,
+				AA0000000000000000000042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000000000000000000031 /* Build configuration list for PBXNativeTarget "larc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000043 /* Debug */,
+				AA0000000000000000000044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0000000000000000000010 /* Project object */;
+}
